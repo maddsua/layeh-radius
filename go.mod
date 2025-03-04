@@ -1,4 +1,4 @@
-module layeh.com/radius
+module github.com/maddsua/layeh-radius
 
 go 1.12
 

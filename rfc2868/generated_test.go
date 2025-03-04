@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"layeh.com/radius"
+	"github.com/maddsua/layeh-radius"
 )
 
 func Test_TunnelPasswordAdd(t *testing.T) {

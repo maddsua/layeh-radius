@@ -5,7 +5,7 @@ package rfc5580
 import (
 	"strconv"
 
-	"layeh.com/radius"
+	"github.com/maddsua/layeh-radius"
 )
 
 const (

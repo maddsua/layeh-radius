@@ -12,8 +12,8 @@ import (
 	"strings"
 	"time"
 
-	"layeh.com/radius"
-	"layeh.com/radius/dictionary"
+	"github.com/maddsua/layeh-radius"
+	"github.com/maddsua/layeh-radius/dictionary"
 )
 
 type Config struct {

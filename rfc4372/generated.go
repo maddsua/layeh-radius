@@ -3,7 +3,7 @@
 package rfc4372
 
 import (
-	"layeh.com/radius"
+	"github.com/maddsua/layeh-radius"
 )
 
 const (

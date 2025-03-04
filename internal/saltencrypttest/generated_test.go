@@ -5,7 +5,7 @@ import (
 	"net"
 	"testing"
 
-	"layeh.com/radius"
+	"github.com/maddsua/layeh-radius"
 )
 
 func TestEncryptedAttributes(t *testing.T) {

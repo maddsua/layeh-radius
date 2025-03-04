@@ -4,11 +4,11 @@
 
 a Go (golang) [RADIUS](https://tools.ietf.org/html/rfc2865) client and server implementation
 
-[![Go Reference](https://pkg.go.dev/badge/layeh.com/radius.svg)](https://pkg.go.dev/layeh.com/radius)
+[![Go Reference](https://pkg.go.dev/badge/github.com/maddsua/layeh-radius.svg)](https://pkg.go.dev/github.com/maddsua/layeh-radius)
 
 ## Installation
 
-    go get -u layeh.com/radius
+    go get -u github.com/maddsua/layeh-radius
 
 ## Client example
 
@@ -19,8 +19,8 @@ import (
 	"context"
 	"log"
 
-	"layeh.com/radius"
-	"layeh.com/radius/rfc2865"
+	"github.com/maddsua/layeh-radius"
+	"github.com/maddsua/layeh-radius/rfc2865"
 )
 
 func main() {
@@ -44,8 +44,8 @@ package main
 import (
 	"log"
 
-	"layeh.com/radius"
-	"layeh.com/radius/rfc2865"
+	"github.com/maddsua/layeh-radius"
+	"github.com/maddsua/layeh-radius/rfc2865"
 )
 
 func main() {
@@ -79,16 +79,16 @@ func main() {
 
 Included in this package is the command line program `radius-dict-gen`. It can be installed with:
 
-    go get -u layeh.com/radius/cmd/radius-dict-gen
+    go get -u github.com/maddsua/layeh-radius/cmd/radius-dict-gen
 
 Given a FreeRADIUS dictionary, the program will generate helper functions and types for reading and manipulating RADIUS attributes in a packet. It is recommended that generated code be used for any RADIUS dictionary you would like to consume.
 
-Included in this repository are sub-packages of generated helpers for commonly used RADIUS attributes, including [`rfc2865`](https://godoc.org/layeh.com/radius/rfc2865) and [`rfc2866`](https://godoc.org/layeh.com/radius/rfc2866).
+Included in this repository are sub-packages of generated helpers for commonly used RADIUS attributes, including [`rfc2865`](https://godoc.org/github.com/maddsua/layeh-radius/rfc2865) and [`rfc2866`](https://godoc.org/github.com/maddsua/layeh-radius/rfc2866).
 
 ## License
 
 MPL 2.0
 
-## Author
+## Original author
 
 Tim Cooper (<tim.cooper@layeh.com>)

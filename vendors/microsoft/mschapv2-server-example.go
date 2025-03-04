@@ -1,4 +1,5 @@
-//+build ignore
+//go:build ignore
+// +build ignore
 
 package main
 
@@ -6,13 +7,13 @@ import (
 	"bytes"
 	"log"
 
-	"layeh.com/radius"
-	"layeh.com/radius/rfc2759"
-	"layeh.com/radius/rfc2865"
-	"layeh.com/radius/rfc2868"
-	"layeh.com/radius/rfc2869"
-	"layeh.com/radius/rfc3079"
-	"layeh.com/radius/vendors/microsoft"
+	"github.com/maddsua/layeh-radius"
+	"github.com/maddsua/layeh-radius/rfc2759"
+	"github.com/maddsua/layeh-radius/rfc2865"
+	"github.com/maddsua/layeh-radius/rfc2868"
+	"github.com/maddsua/layeh-radius/rfc2869"
+	"github.com/maddsua/layeh-radius/rfc3079"
+	"github.com/maddsua/layeh-radius/vendors/microsoft"
 )
 
 const (
